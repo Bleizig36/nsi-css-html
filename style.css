@@ -1,32 +1,30 @@
 .texte{
 	color: #0065ff;
 	/* color: white; */
-	font-family: TeX Gyre Adventor;
 	/* system-ui */
-	line-height: 18px;
-	padding-left: 20rem;
+	/* padding-left: 20rem;
 	padding-right: 20rem;
-	
+	 */
 }
 
 /* Met le texte en bleu et espacé de 18 px + marge de 20rem de chaque coté */
 
-h1 {
+h1 { /* Titres en rouge, souligné */
 	color : red;
 	text-decoration : underline;
 	text-align: center;
 }
+h3,h2{ /* Titres secondaires en vert */
+	color : green;
+}
 
-/* Met les titres en rouge, souligné */
+
 
 
 .sommaire{
 	text-align: center;
 }
 
-h3,h2{
-	color : green;
-}
 
 html{
 	background-image: url(https://wallpapercave.com/wp/wp2691570.jpg);
@@ -35,10 +33,35 @@ html{
 	/* font-family: TeX Gyre Adventor; */
 }
 body{
-	background-color: transparent;
-	/* background-size: cover; */
-}
+	font-family: TeX Gyre Adventor;
+	line-height: 18px;
+	text-align: justify;
 
+	/* background-color: transparent; */
+	/* background-color: black; */
+	background-color:rgba(40, 40, 40, 0.97);
+	/* box-shadow: 3px 3px red, -1em 0 .4em olive; */
+	box-shadow: rgb(0, 0, 0) 0px 0.5em 1em;
+	/* background-size: cover; */
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
+	
+}
+.reference{
+	color: #4167a0;
+	font-style:italic;
+}
 .image{
 	text-align: center;
+}
+.legende{
+	color: #6b6c6d;
+	text-align: center;
+	font-style: italic;
 }
