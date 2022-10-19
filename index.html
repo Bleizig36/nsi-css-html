@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+	<!-- il y a deux parties dans la page 
+	première partie : l'en-tête qui ne sera pas affichée par le navigateur -->
+	
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title> Rsa </title>
+	</head>
+	
+	<!-- deuxième partie : le corps du texte ; c'est là qu'il faut que vous écriviez ! -->
+	
+	<body>
+	
+		<h1><strong>RSA : Rivest, Adleman et Shamir</strong></h1>
+
+		<p> <br/> <br/></p>
+
+		<div class="sommaire">
+		<h2>Sommaire</h2>
+		<a href="#ronald">Ronald Rivest</a><br/>
+		<a href="#leonard">Leonard Adleman</a><br/>
+		<a href="#adi">Adi Shamir</a><br/>
+		<a href="#rsa">RSA</a><br/>
+		<a href="#sources">Sources</a><br/>
+		</div>
+
+		<!-- Sommaire, au clic -> point voulu  -->
+
+		<p> <br/> <br/></p>
+
+		<div class="texte">
+			<a href="#sources">
+				<h3 id="ronald">Ronald Rivest</h3>
+			</a>
+				<p><strong>Ronald Linn Rivest est né en 1947 au États-Unis.</strong><br/>
+				Il est un un des créateurs de l'algorithme de chiffrement à clé publique RSA.
+				Il etudie a l'université de yale et devient docteur a l'unversitée de Stanfor.
+				Il travaille sur la cryprographie et la securitée de l'information.
+				Il fonda en 1982 la société RSA Security et ecrit un livre : <em>Introduction à l'algorithmique.</em>
+				</p>
+			
+			<!-- Biographie de Ronald Rivest, au clic sur le titre -> source -->
+
+			<a href="#sources">
+				<h3 id="leonard">Leonard Adleman</h3>
+			</a>
+
+				<p><strong>Leonard Adleman est né en 1945 au États-Unis.</strong><br/>
+				Il est un un des créateurs de l'algorithme de chiffrement à clé publique RSA.
+				Il travaille dans la biologie et l'informatique.
+				L'un de ses article : <em> Molecular Computation of Solutions To Combinatorial Problems </em>
+				montre que L'ADN peux effectuer des calculs complexes.
+				Il a été consultant en mathématiques pour le film <em> Les Experts </em>
+				</p>
+
+				<!-- Biographie de Leonard Adleman, au clic sur le titre -> source -->
+
+			<a href="#sources">
+				<h3 id="adi">Adi Shamir</h3>
+			</a>
+				<p>
+				<strong>Adi Shamir est né en 1952 en Israël.</strong><br/>
+				Il est un un des créateurs de l'algorithme de chiffrement à clé publique RSA.
+				C'est un cryptologue il est meme reconnu comme l'un des experts les plus éminents en cryptanalyse.
+				Il a fait de nombreux travaux dans le monde de la chiffrement: la technique de la cryptanalyse différentielle
+				(avec Eli Biham), le protocole d'authentification sans apport de connaissance (avec Amos Fiat), ...
+				</p>
+
+				<!-- Biographie de Adi Shamir, au clic sur le titre -> source -->
+
+		</div>
+
+		<p> <br/> <br/></p>
+
+		<div class="image" >
+			<img src="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg"/>
+			<p></p>Ronald Rivest, Leonard Adleman et Adi Shamir</p>
+		</div>
+
+		<p> <br/> <br/></p>
+		
+		<div class="texte" id="rsa">
+			<a href="#sources">
+				<h2>RSA</h2>	
+			</a>
+				<p>
+				<strong>RSA est un algorime de chiffrement utilisée pour le partage d'information sur internet.</strong>
+				Il utilise une paire de clés composé d'une clé publique pour chiffrer 
+				et d'une clé privée pour déchiffrer des données confidentielles.
+				Une condition indispensable est qu'il soit calculatoirement impossible de déchiffrer à l'aide de la seule clé publique
+				et il fait que  le fichier correspondant reste indéchiffrable à l’œil nu.
+				Ils sont formés à partir de nombres premiers choisis au hasard et qui doivent avoir à peu près le même ordre de grandeur, 
+				sans pour autant être trop proches. Les nombres sont ensuite calculés avec différentes formules mathématiques.
+				Il est tres utilisé dans de nombreux domaines nécessitant des transferts de données via Internet.
+				<br/><br/>
+				On s'en sert donc pour du chiffrement mais on peux aussi s'en servir pour faire de la
+				vérication qui est le fameux "htpps" qui confirme que le serveur/ site est bien securisé
+				qui utilise le procédé inverse du chiffrement on s'en sert surtout pour deliver des certificats de fiabilité.
+			</p>
+
+			<!-- Description du foncionnement de RSA, au clic sur le titre -> source -->
+
+		</div>
+		
+		<p> <br/></p><p> <br/> <br/></p>
+
+
+		<div class="image">	
+
+			<img src="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png"/>
+			<p></p>Exemple d'un chiffrement</p>
+			<p> <br/> <br/></p>
+
+			<img src="https://jafwin.com/wp-content/uploads/2019/06/protole-RSA-JAFWIN.png"/>
+			<p>Fonctionnement du système de chiffrement RSA</p>
+		</div>
+
+		<p> <br/> <br/></p>
+
+		<div class=sommaire id="sources">
+		
+			<h2>Sources</h2>
+
+				<a href="https://fr.wikipedia.org/wiki/Ronald_Rivest"> Wikipedia Ronald Rivest </a><br/>
+				<a href="https://www.techno-science.net/definition/7554.html"> Techno sciences Ronald Rivest </a><br/>
+				<a href="https://fr.wikipedia.org/wiki/Leonard_Adleman"> Wikipedia Adleman Leonard </a><br/>
+				<a href="https://viterbi.usc.edu/directory/faculty/Adleman/Leonard"> USC Adleman Leonard </a><br/>
+				<a href="https://fr.wikipedia.org/wiki/Adi_Shamir"> Wikipedia Adi Shamir </a><br/>
+				<a href="https://www.ionos.fr/digitalguide/serveur/securite/systeme-de-chiffrement-rsa/">Info fonctionnement RSA</a><br/>
+				<a href="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg"> Image de Rivest, Adleman et Shamir </a><br/>
+				<a href="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png">Image exemple chiffrement</a>
+				<a href="https://jafwin.com/wp-content/uploads/2019/06/protole-RSA-JAFWIN.png"> Image RSA </a><br/>
+				<a href="https://wallpapercave.com/wp/wp2691570.jpg"> Image de font </a><br/>
+
+				<!-- Sources, au clic -> Le site de la source -->
+		</div>
+	</body>
+	
+</html> 

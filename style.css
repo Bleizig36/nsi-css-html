@@ -1,0 +1,44 @@
+.texte{
+	color: #0065ff;
+	/* color: white; */
+	font-family: TeX Gyre Adventor;
+	/* system-ui */
+	line-height: 18px;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	
+}
+
+/* Met le texte en bleu et espacé de 18 px + marge de 20rem de chaque coté */
+
+h1 {
+	color : red;
+	text-decoration : underline;
+	text-align: center;
+}
+
+/* Met les titres en rouge, souligné */
+
+
+.sommaire{
+	text-align: center;
+}
+
+h3,h2{
+	color : green;
+}
+
+html{
+	background-image: url(https://wallpapercave.com/wp/wp2691570.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	/* font-family: TeX Gyre Adventor; */
+}
+body{
+	background-color: transparent;
+	/* background-size: cover; */
+}
+
+.image{
+	text-align: center;
+}
