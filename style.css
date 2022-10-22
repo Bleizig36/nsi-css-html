@@ -9,25 +9,25 @@
 
 /* Met le texte en bleu et espacé de 18 px + marge de 20rem de chaque coté */
 
-.sommaire-1{
+.sommaire-1 {
 	text-align: center;
 	line-height: 24px;
 	font-size: 18px;
 }
 
-.sommaire-2{
+.sommaire-2 {
 	text-align: left;
 	display: inline-block;
 }
 
-html{
+html {
 	background-image: url(https://wallpapercave.com/wp/wp2691570.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	/* font-family: TeX Gyre Adventor; */
 }
 
-body{
+body {
 	font-family: TeX Gyre Adventor;
 	line-height: 18px;
 	text-align: justify;
@@ -58,15 +58,15 @@ h1 { /* Titres en rouge, souligné */
 	font-size: 35px;
 }
 
-h3,h2{ /* Titres secondaires en vert */
+h3, h2 { /* Titres secondaires en vert */
 	color : green;
 }
 
-.reference{
-	color: #4167a0;
+.reference {
+	color: #5e779c;
 	font-style:italic;
 }
-.image{
+.image {
 	text-align: center;
 	position: relative;
 	max-width: 100%;
@@ -75,24 +75,49 @@ h3,h2{ /* Titres secondaires en vert */
 	padding-right: 6rem; */
 }
 
-.trop{
+.trop {
 	max-width: 100%;
 	height: auto;
 }
 
-.legende{
+.legende {
 	color: #6b6c6d;
 	text-align: center;
 	font-style: italic;
 	font-size: 15px;
 }
 
-header{
+header {
 	font-size: 18px;
 }
 
 .sources{
 	text-align: center;
+}
+
+a{
+  background: transparent;
+  text-decoration: none;
+  position: relative;
+}
+
+a.animate {
+  animation: .5 changement;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  width: 100%;
+  height: 2px;
+  background-color: #6a8ec4;
+  transition: transform .4s /*250ms */
+}
+a:hover::after {
+  transform: translateX(-50%) scaleX(1);
 }
 
 @media screen and (max-width: 1280px){
