@@ -98,10 +98,7 @@ header{
 @media screen and (max-width: 1280px){
 
 	body{
-		font-family: TeX Gyre Adventor;
-		line-height: 18px;
-		text-align: justify;
-	
+
 		background-color:rgba(40, 40, 40, 0.97);
 		box-shadow: rgb(0, 0, 0) 0px 1em 1.5em;
 	
@@ -116,7 +113,7 @@ header{
 		border-radius: 3.5px;
 	}
 
-	h1 { /* Titres en rouge, souligné */
+	/* h1 { Titres en rouge, souligné 
 		color : red;
 		text-decoration : underline;
 		text-align: center;
@@ -127,11 +124,11 @@ header{
 	.sommaire-1{
 		text-align: center;
 		line-height: 24px;
-		font-size: 18px;
+		font-size: 30px;
 	}
 	
 	.sommaire-2{
 		text-align: left;
 		display: inline-block;
-	}
+	} */
 }
