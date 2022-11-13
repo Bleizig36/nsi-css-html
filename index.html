@@ -1,31 +1,35 @@
 ﻿<!DOCTYPE html>
-<html>
-
+<html lang="fr">
+	<!-- il y a deux parties dans la page 
+	première partie : l'en-tête qui ne sera pas affichée par le navigateur -->
+	
 	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="style.css" />
+		<meta charset="utf-8" >
+		<link rel="stylesheet" href="couturier-rsa.css" >
 		<title> Rsa </title>
 	</head>
-
+	
+	<!-- deuxième partie : le corps du texte ; c'est là qu'il faut que vous écriviez ! -->
+	
 	<body>
 	
 	<header>
 		<h1><strong>RSA : Rivest, Adleman et Shamir</strong></h1>
+		<p class="dates">Breveté en 1983</p>
+		<br>
 
-		<br/>
-
-		<div class="sommaire-1">
+		<div class="sommaire-1 texte">
 			<div class="sommaire-2">
 				<h2>Sommaire</h2>
-				<a href="#ronald">Ronald Rivest</a><br/>
-				<a href="#leonard">Leonard Adleman</a><br/>
-				<a href="#adi">Adi Shamir</a><br/>
-				<a href="#rsa">RSA</a><br/>
-				<a href="#sources">Sources</a><br/>
+				<a href="#ronald">Ronald Rivest</a><br>
+				<a href="#leonard">Leonard Adleman</a><br>
+				<a href="#adi">Adi Shamir</a><br>
+				<a href="#rsa">RSA</a><br>
+				<a href="#sources">Sources</a><br>
 			</div>
 		</div>
 		
-		<br/><br/><br/><br/>
+		<br><br><br><br>
 
 	</header>
 
@@ -35,7 +39,7 @@
 			<a href="#sources">
 				<h3 id="ronald">Ronald Rivest</h3>
 			</a>
-				<p><strong>Ronald Linn Rivest est né en 1947 au États-Unis.</strong><br/>
+				<p><strong>Ronald Linn Rivest est né en 1947 au États-Unis.</strong><br>
 				Il est un des créateurs de l'algorithme de chiffrement à clé publique RSA.
 				Il étudie à l'université de Yale et devient docteur a l’université de Stanford.
 				Il travaille sur la cryptographie et la sécurité de l'information.
@@ -48,10 +52,10 @@
 				<h3 id="leonard">Leonard Adleman</h3>
 			</a>
 
-				<p><strong>Leonard Adleman est né en 1945 au États-Unis.</strong><br/>
+				<p><strong>Leonard Adleman est né en 1945 au États-Unis.</strong><br>
 				Il est un un des créateurs de l'algorithme de chiffrement à clé publique RSA.
 				Il travaille dans la biologie et l'informatique.
-				L'un de ses article : <br/><a class="reference" href="https://wiki.cse.unsw.edu.au/~cs4211/04s1/papers/0.pdf">Molecular Computation of Solutions To Combinatorial Problems</a>
+				L'un de ses article : <br><a class="reference" href="https://wiki.cse.unsw.edu.au/~cs4211/04s1/papers/0.pdf">Molecular Computation of Solutions To Combinatorial Problems</a>
 				montre que L'ADN peux effectuer des calculs complexes.
 				Il a été consultant en mathématiques pour le film <a class="reference" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=5569.html">Les Experts</a>
 				</p>
@@ -62,7 +66,7 @@
 				<h3 id="adi">Adi Shamir</h3>
 			</a>
 				<p>
-				<strong>Adi Shamir est né en 1952 en Israël.</strong><br/>
+				<strong>Adi Shamir est né en 1952 en Israël.</strong><br>
 				Il est un un des créateurs de l'algorithme de chiffrement à clé publique RSA.
 				C'est un cryptologue il est même reconnu comme l'un des experts les plus éminents en cryptanalyse.
 				Il a fait de nombreux travaux dans le monde de la chiffrement: <a class="reference" 
@@ -75,19 +79,19 @@
 
 		</div>
 
-		<br/><br/>
+		<br><br>
 
 		<div class="image" >
-			<img class="image" src="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg"/>
+			<img class="image" src="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg" alt="Photo de Ronald Rivest, Leonard Adleman et Adi Shamir">
 			<!--<img src="RSA.jpeg">-->
 
-			<br/><br/>
+			<br><br>
 
 			<span class="legende">Ronald Rivest, Leonard Adleman et Adi Shamir</span>
 		</div>
 		
 
-		<br/><br/>
+		<br><br>
 		
 		<div class="texte" id="rsa">
 			<a href="#sources">
@@ -97,18 +101,18 @@
 				<strong>RSA est un algorithme de chiffrement utilisé pour le partage d'information sur Internet.</strong>
 				Il utilise une paire de clés composée d'une clé publique que l'on peut communiquer
 				et d'une clé privée qui doit rester confidentielle.
-				<br/>
+				<br>
 				L'algorithme RSA est conçu pour qu'il soit calculatoirement impossible de déchiffrer un message
 				encodé avec l'une des clés sans disposer de l'autre. Comme la plupart des algorithmes de chiffrement,
 				il repose sur le fait qu'il est difficile de factoriser des grands nombres sous forme de 
 				nombres premiers.
-				<br/>
+				<br>
 				Il est tres utilisé dans de nombreux domaines nécessitant des transferts de données via Internet.
-				<br/>
+				<br>
 				Il peut par exemple assurer la confidentialité des échanges en chiffrant les communications.
 				Pour cela, l'expéditeur se sert de la clé publique pour chiffrer le message. Dans ce cas, seul
 				le détenteur de la clé privée pourra le décoder.
-				<br/>
+				<br>
 				Un autre cas d'utilisation est la vérification d'identité (ou <em>authentification</em>).
 				Dans ce cas, la personne qui doit prouver son identité chiffre un message connu avec sa clé privée.
 				Toute personne disposant de la clé publique peut décoder le message et en déduire que l’expéditeur
@@ -121,52 +125,52 @@
 
 		</div>
 		
-		<br/><br/>
+		<br><br>
 
 		<div class="image">
 		
-			<img class="image" src="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png"/>
+			<img class="image" src="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png" alt="Exemple d'un chiffrement avec RSA">
 			
-			<br/><br/>
+			<br><br>
 
 			<span class="legende">Exemple d'un chiffrement</span>
 			
-			<br/><br/><br/>
+			<br><br><br>
 
 			<!--<img src="https://jafwin.com/wp-content/uploads/2019/06/protole-RSA-JAFWIN.png"/> -->
-			<img class="image" src="protole-rsa.png"/>
+			<img class="image" src="protole-rsa.png" alt="Fonctionnement du système de chiffrement RSA">
 
-			<br/><br/>
+			<br><br>
 
 			<span class="legende">Fonctionnement du système de chiffrement RSA</span>
 		
 		</div>
 
-		<br/><br/>
+		<br><br>
 
-		<div class=sources id="sources">
+		<div class="sources texte" id="sources">
 			
 			<h2>Sources</h2>
-				<a href="https://fr.wikipedia.org/wiki/Ronald_Rivest"> Wikipedia Ronald Rivest </a><br/>
-				<a href="https://www.techno-science.net/definition/7554.html"> Techno sciences Ronald Rivest </a><br/>
-				<a href="https://fr.wikipedia.org/wiki/Leonard_Adleman"> Wikipedia Adleman Leonard </a><br/>
-				<a href="https://viterbi.usc.edu/directory/faculty/Adleman/Leonard"> USC Adleman Leonard </a><br/>
-				<a href="https://fr.wikipedia.org/wiki/Adi_Shamir"> Wikipedia Adi Shamir </a><br/>
-				<a href="https://www.ionos.fr/digitalguide/serveur/securite/systeme-de-chiffrement-rsa/">Info fonctionnement RSA</a><br/>
+				<a href="https://fr.wikipedia.org/wiki/Ronald_Rivest"> Wikipedia Ronald Rivest </a><br>
+				<a href="https://www.techno-science.net/definition/7554.html"> Techno sciences Ronald Rivest </a><br>
+				<a href="https://fr.wikipedia.org/wiki/Leonard_Adleman"> Wikipedia Adleman Leonard </a><br>
+				<a href="https://viterbi.usc.edu/directory/faculty/Adleman/Leonard"> USC Adleman Leonard </a><br>
+				<a href="https://fr.wikipedia.org/wiki/Adi_Shamir"> Wikipedia Adi Shamir </a><br>
+				<a href="https://www.ionos.fr/digitalguide/serveur/securite/systeme-de-chiffrement-rsa/">Info fonctionnement RSA</a><br>
 				
-				<br/>
+				<br>
 				
-				<a href="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg"> Image de Rivest, Adleman et Shamir </a><br/>
-				<a href="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png">Image exemple chiffrement</a><br/>
-				<a href="https://jafwin.com/wp-content/uploads/2019/06/protole-RSA-JAFWIN.png"> Image RSA </a><br/>
-				<a href="https://wallpapercave.com/wp/wp2691570.jpg"> Image de font </a><br/>
+				<a href="http://icour.fr/ELeveSeconde/2nde3/rsa_mercier/chargement.jpg"> Image de Rivest, Adleman et Shamir </a><br>
+				<a href="https://www.ionos.fr/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/rsa01_en.png">Image exemple chiffrement</a><br>
+				<a href="https://jafwin.com/wp-content/uploads/2019/06/protole-RSA-JAFWIN.png"> Image RSA </a><br>
+				<a href="https://wallpapercave.com/wp/wp2691570.jpg"> Image de font </a><br>
 
-				<br/>
+				<br>
 
-				<a href="http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-fr-4/ch-ssh.html">SSH informations</a><br/>
-				<a href="http://www.mcours.net/cours/pdf/hasclic3/hasssclic995.pdf">Livre "Introduction à l'algorithmique" de Ronald Linn Rivest </a><br/>
-				<a href="https://wiki.cse.unsw.edu.au/~cs4211/04s1/papers/0.pdf">Article "Molecular Computation of Solutions To Combinatorial Problems" de Leonard Adleman</a><br/>
-				<a href="https://ioactive.com/wp-content/uploads/2015/07/biham91differential.pdf"> Article Differential Cryptanalysis of DES-like Crypto-systems de Adi Shamir et Eli Biham</a><br/><br/>
+				<a href="http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-fr-4/ch-ssh.html">SSH informations</a><br>
+				<a href="http://www.mcours.net/cours/pdf/hasclic3/hasssclic995.pdf">Livre "Introduction à l'algorithmique" de Ronald Linn Rivest </a><br>
+				<a href="https://wiki.cse.unsw.edu.au/~cs4211/04s1/papers/0.pdf">Article "Molecular Computation of Solutions To Combinatorial Problems" de Leonard Adleman</a><br>
+				<a href="https://ioactive.com/wp-content/uploads/2015/07/biham91differential.pdf"> Article Differential Cryptanalysis of DES-like Crypto-systems de Adi Shamir et Eli Biham</a><br><br>
 				
 				<a href="https://bleizig36.github.io/nsi-css-html/">Lien du site</a>
 
