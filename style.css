@@ -1,13 +1,13 @@
-.texte{
+.texte {
 	color: #0065ff;
 	font-size: 17px;
 }
 
-a{
+a {
 	color: #0065ff;;
 }
 
-.dates{
+.dates {
 	color: rgb(248, 110, 110);
 	text-align: center;
 	text-decoration: underline;
@@ -28,7 +28,7 @@ defini la taille du texte et l'espacement des lignes */
 	text-align: left;
 	display: inline-block;
 }
-/* aligne le texte du sommaire a droite 
+/* aligne le texte du sommaire a droite
 ( mais toujours en étant au centre de la page*/
 
 html {
@@ -43,7 +43,7 @@ body {
 	line-height: 18px;
 	text-align: justify;
 
-	/* definition de la police, la taille du texte et aligne 
+	/* definition de la police, la taille du texte et aligne
 	le texte de facon propre  */
 
 	background-color:rgba(40, 40, 40, 0.97);
@@ -60,7 +60,7 @@ body {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	border-radius: 7px;
-	
+
 	/* Definis des marges pour l'interieur du body ( images + texte)
 	et pour l'exterieur ( marge de propretée autour du body ) */
 }
@@ -101,20 +101,20 @@ h3, h2 { /* Titres secondaires en vert */
 	font-size: 15px;
 }
 
-/* met les légendes en gris, italique, alignées au centre et 
+/* met les légendes en gris, italique, alignées au centre et
 avec une taille de 15pixels */
 
 header {
 	font-size: 18px;
 }
 
-.sources{
+.sources {
 	text-align: center;
 }
 
 /* aligne le texte des sources au centre */
 
-a{
+a {
   background: transparent;
   text-decoration: none;
   position: relative;
@@ -140,13 +140,13 @@ a:hover::after {
 }
 /* met un animation sous toute chose maquée de la balise <a> */
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
 
-	body{
+	body {
 
 		background-color:rgba(40, 40, 40, 0.97);
 		box-shadow: rgb(0, 0, 0) 0px 1em 1.5em;
-	
+
 		padding-left: 2rem;
 		padding-right: 2rem;
 		padding-top: 0.5rem;
