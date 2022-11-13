@@ -3,6 +3,17 @@
 	font-size: 17px;
 }
 
+a{
+	color: #0065ff;;
+}
+
+.dates{
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 20px;
+}
+
 /* Met le texte en bleu et espacé de 18 px + marge de 20rem de chaque coté */
 
 .sommaire-1 {
