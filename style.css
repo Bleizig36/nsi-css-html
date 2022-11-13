@@ -1,9 +1,5 @@
 .texte{
 	color: #0065ff;
-	/* color: white;
-	system-ui
-	padding-left: 20rem;
-	padding-right: 20rem; */
 	font-size: 17px;
 }
 
@@ -14,30 +10,36 @@
 	line-height: 24px;
 	font-size: 18px;
 }
+/* aligne le sommaire au centre
+defini la taille du texte et l'espacement des lignes */
 
 .sommaire-2 {
 	text-align: left;
 	display: inline-block;
 }
+/* aligne le texte du sommaire a droite 
+( mais toujours en étant au centre de la page*/
 
 html {
 	background-image: url(https://wallpapercave.com/wp/wp2691570.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	/* font-family: TeX Gyre Adventor; */
 }
+/* definis l'arriere plan  */
 
 body {
 	font-family: TeX Gyre Adventor;
 	line-height: 18px;
 	text-align: justify;
 
-	/* background-color: transparent; */
-	/* background-color: black; */
+	/* definition de la police, la taille du texte et aligne 
+	le texte de facon propre  */
+
 	background-color:rgba(40, 40, 40, 0.97);
-	/* box-shadow: 3px 3px red, -1em 0 .4em olive; */
 	box-shadow: rgb(0, 0, 0) 0px 0.5em 1em;
-	/* background-size: cover; */
+
+	/* met de l'ombre */
+
 	padding-left: 6rem;
 	padding-right: 6rem;
 	padding-top: 1rem;
@@ -48,7 +50,11 @@ body {
 	margin-bottom: 3rem;
 	border-radius: 7px;
 	
+	/* Definis des marges pour l'interieur du body ( images + texte)
+	et pour l'exterieur ( marge de propretée autour du body ) */
 }
+
+/*  */
 
 h1 { /* Titres en rouge, souligné */
 	color : red;
@@ -66,19 +72,16 @@ h3, h2 { /* Titres secondaires en vert */
 	color: #5e779c;
 	font-style:italic;
 }
+/* met les references en gris/bleu et en italique */
+
 .image {
 	text-align: center;
 	position: relative;
 	max-width: 100%;
-	/*height: auto;
-	padding-left: 6rem; 
-	padding-right: 6rem; */
 }
 
-.trop {
-	max-width: 100%;
-	height: auto;
-}
+/* met les images au centres, adaptation de
+ l'image en fonction de la taille du texte */
 
 .legende {
 	color: #6b6c6d;
@@ -87,6 +90,9 @@ h3, h2 { /* Titres secondaires en vert */
 	font-size: 15px;
 }
 
+/* met les légendes en gris, italique, alignées au centre et 
+avec une taille de 15pixels */
+
 header {
 	font-size: 18px;
 }
@@ -94,6 +100,8 @@ header {
 .sources{
 	text-align: center;
 }
+
+/* aligne le texte des sources au centre */
 
 a{
   background: transparent;
@@ -119,6 +127,7 @@ a::after {
 a:hover::after {
   transform: translateX(-50%) scaleX(1);
 }
+/* met un animation sous toute chose maquée de la balise <a> */
 
 @media screen and (max-width: 1280px){
 
@@ -137,23 +146,5 @@ a:hover::after {
 		margin-bottom: 1.5rem;
 		border-radius: 3.5px;
 	}
-
-	/* h1 { Titres en rouge, souligné 
-		color : red;
-		text-decoration : underline;
-		text-align: center;
-		line-height: 40px;
-		font-size: 35px;
-	}
-
-	.sommaire-1{
-		text-align: center;
-		line-height: 24px;
-		font-size: 30px;
-	}
-	
-	.sommaire-2{
-		text-align: left;
-		display: inline-block;
-	} */
+	/* adaptation pour un écran de telephone */
 }
