@@ -142,7 +142,7 @@ a:hover::after {
 
 @media screen and (max-width: 1280px) {
 	.texte {
-		font-size: 10px;
+		font-size: 30%;
 	}
 	body {
 
