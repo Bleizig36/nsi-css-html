@@ -1,10 +1,10 @@
 .texte {
-	color: #0065ff;
+	color: #4e95ff;
 	font-size: 17px;
 }
 
 a {
-	color: #0065ff;;
+	color: #4e95ff;;
 }
 
 .dates {
@@ -76,11 +76,11 @@ h1 { /* Titres en rouge, souligné */
 }
 
 h3, h2 { /* Titres secondaires en vert */
-	color : green;
+	color : rgb(51, 168, 51);
 }
 
 .reference {
-	color: #5e779c;
+	color: #8a89b8;
 	font-style:italic;
 }
 /* met les references en gris/bleu et en italique */
@@ -95,7 +95,7 @@ h3, h2 { /* Titres secondaires en vert */
  l'image en fonction de la taille du texte */
 
 .legende {
-	color: #6b6c6d;
+	color: #c2d0df;
 	text-align: center;
 	font-style: italic;
 	font-size: 15px;
