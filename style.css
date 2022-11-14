@@ -142,10 +142,15 @@ a:hover::after {
 
 @media screen and (max-width: 1280px) {
 	.h1 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.texte {
-		font-size: 10px;
+		font-size: 15px;
+	}
+
+	.sommaire-1 {
+		line-height: 15px;
+		font-size: 18px;
 	}
 
 	body {
