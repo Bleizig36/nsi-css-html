@@ -141,7 +141,9 @@ a:hover::after {
 /* met un animation sous toute chose maquée de la balise <a> */
 
 @media screen and (max-width: 1280px) {
-
+	.texte {
+		font-size: 10px;
+	}
 	body {
 
 		background-color:rgba(40, 40, 40, 0.97);
