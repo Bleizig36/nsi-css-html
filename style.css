@@ -142,11 +142,12 @@ a:hover::after {
 
 @media screen and (max-width: 1280px) {
 	.h1 {
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.texte {
 		font-size: 10px;
 	}
+
 	body {
 
 		background-color:rgba(40, 40, 40, 0.97);
