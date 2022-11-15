@@ -39,7 +39,7 @@ html {
 /* definis l'arriere plan  */
 
 body {
-	font-family: TeX Gyre Adventor;
+	font-family: "TeX Gyre Adventor", "Arial", "Helvetica", "sans-serif";
 	line-height: 18px;
 	text-align: justify;
 
