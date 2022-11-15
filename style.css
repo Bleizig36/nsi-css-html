@@ -114,6 +114,10 @@ header {
 
 /* aligne le texte des sources au centre */
 
+.title::after {
+	display: none;
+}
+
 a {
   background: transparent;
   text-decoration: none;
